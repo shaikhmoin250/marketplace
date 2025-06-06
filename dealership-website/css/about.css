@@ -1,0 +1,15 @@
+/* Styles for About Us Page */
+#dealership-info h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#map-placeholder {
+    margin-bottom: 20px;
+    width:100%; /* Make it responsive */
+    max-width:600px; /* Keep max width */
+    height:400px;
+    background-color:#f0f0f0;
+    text-align:center;
+    line-height:400px;
+}

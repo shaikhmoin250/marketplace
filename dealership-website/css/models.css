@@ -1,0 +1,27 @@
+/* Styles for Models Page */
+.model-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.model-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: calc(33.333% - 20px); /* Adjust based on gap */
+    box-sizing: border-box;
+    text-align: center; /* Assuming images and text should be centered */
+}
+
+.model-item img {
+    max-width: 100%;
+    height: auto;
+    background-color: #f0f0f0; /* Retain from placeholder */
+    object-fit: cover; /* Retain from placeholder */
+    margin-bottom: 10px;
+}
+
+.model-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
