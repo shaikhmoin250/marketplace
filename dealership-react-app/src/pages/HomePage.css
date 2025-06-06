@@ -1,0 +1,44 @@
+/* Styles for Homepage */
+#carousel-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel-container { /* This was in main.css, but might be more home-specific now if not used elsewhere */
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 200px; /* Placeholder height */
+    position: relative; /* For button positioning if needed */
+}
+
+#carousel-image { /* Added in a later step, ensure it's covered or add basic styling */
+    width:100%;
+    height:auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.carousel-container button { /* Basic button styling for carousel */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+#prev-btn {
+    left: 10px;
+}
+#next-btn {
+    right: 10px;
+}
+
+#testimonials-section .testimonial {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
